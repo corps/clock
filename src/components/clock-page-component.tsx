@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as n from "netsuke";
 import {ClockComponent} from "./clock-component";
+import {request} from "screenfull";
 
 var initialState = {
   time: null as Date
@@ -22,7 +23,7 @@ export class ClockPageComponent extends React.Component<{}, typeof initialState>
 
     var scheduleDisplay = todaySchedule.slice(scheduleIdx, scheduleIdx + 4);
 
-    return <div style={{ textAlign: "center" }}>
+    return <div onClick={() => { request(document.getElementsByName("DIV")[0]) }} style={{ textAlign: "center" }}>
       <ClockComponent style={clockStyle} time={this.state.time}/>
       <div style={dayStyle}>
         { day }, {this.state.time.getMonth()}/{ this.state.time.getDate() }
