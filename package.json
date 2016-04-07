@@ -1,0 +1,22 @@
+{
+  "name": "clock",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/tsc && npm run build",
+    "watch": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors --watch",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors",
+    "demos": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --content-base demos/",
+    "open-demos": "open http://localhost:8080/webpack-dev-server"
+  },
+  "dependencies": {
+    "glob": "^7.0.3",
+    "lie": "^3.0.2",
+    "netsuke": "0.0.2",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "static-render-webpack-plugin": "^0.1.2",
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
