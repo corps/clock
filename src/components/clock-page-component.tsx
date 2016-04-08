@@ -89,7 +89,7 @@ var tableHeaderStyle = {
 
 var tableColumnStyle = {
   verticalAlign: "top",
-  width: "45%",
+  width: "48%",
   display: "inline-block",
   fontSize: "3vw",
 };
@@ -98,14 +98,14 @@ var scheduleRowStyle = {
   textAlign: "left"
 };
 
-var ike = "To Oomiya (Ikebukuro)";
-var juku = "To Oomiya (Shinjuku)";
-var kiba = "To Oomiya (Shinkiba)";
-var taka = "(L) To Takasaki";
-var mae = "(L) To Maebashi";
-var kago = "(L) To Kagohara";
-var shinmae = "(L) To Shinmaebashi";
-var fuka = "(L) To Fukaya";
+var ike = "Oomiya (Ikebukuro)";
+var juku = "Oomiya (Shinjuku)";
+var kiba = "Oomiya (Shinkiba)";
+var taka = "(L) Takasaki";
+var mae = "(L) Maebashi";
+var kago = "(L) Kagohara";
+var shinmae = "(L) Shinmaebashi";
+var fuka = "(L) Fukaya";
 
 interface Schedule {
   time:number, description:string, isRapid?:boolean
