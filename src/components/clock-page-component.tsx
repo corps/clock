@@ -98,9 +98,9 @@ var scheduleRowStyle = {
   textAlign: "left"
 };
 
-var ike = "To Oomiya";
-var juku = "To Oomiya";
-var kiba = "To Oomiya";
+var ike = "To Oomiya (Ikebukuro)";
+var juku = "To Oomiya (Shinjuku)";
+var kiba = "To Oomiya (Shinkiba)";
 var taka = "(L) To Takasaki";
 var mae = "(L) To Maebashi";
 var kago = "(L) To Kagohara";
